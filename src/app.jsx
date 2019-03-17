@@ -1,7 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 
-import style from './app.css';
+import style from './app.scss';
 
 const App = () => (
   <div className={style.app}>
@@ -9,6 +9,7 @@ const App = () => (
     <span role="img" aria-label="rocket">
       🚀
     </span>
+    <div className={style.sassyDiv}>Get Sassy!</div>
   </div>
 );
 

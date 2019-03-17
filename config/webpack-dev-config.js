@@ -60,8 +60,13 @@ module.exports = merge(common, {
               // generates a unique name for each class (e.g. app__app___2x3cr)
               localIdentName: "[name]__[local]___[hash:base64:5]"
             }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+            }
           }
-          // Add additional loaders here. (e.g. sass-loader)
         ]
       }
     ]
