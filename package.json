@@ -19,7 +19,13 @@
     "react",
     "webpack",
     "babel",
-    "sass"
+    "sass",
+    "eslint",
+    "sass",
+    "webpack4",
+    "prettier",
+    "reactjs",
+    "es6"
   ],
   "author": "Alejandro Navarro",
   "license": "ISC",
