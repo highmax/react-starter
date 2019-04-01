@@ -1,4 +1,4 @@
-# react-starter
+# react-webpack-starter
 
 ### scripts:
 - :hammer_and_wrench: development:    `yarn start:dev`
